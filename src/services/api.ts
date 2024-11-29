@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Movie, MovieDetails } from '../types/movie';
-import { BASE_URL, API_KEY } from './config';
+import { BASE_URL } from './config';
 import { transformMovieData, transformMovieDetailsData } from './transformers';
 
 const api = axios.create({
