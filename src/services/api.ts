@@ -6,7 +6,7 @@ import { transformMovieData, transformMovieDetailsData } from './transformers';
 const api = axios.create({
   baseURL: BASE_URL,
   params: {
-    api_key: API_KEY,
+    api_key: "cf23239b07mshfdcd79f1f329344p1d2696jsn05418c317f31",
   },
 });
 
